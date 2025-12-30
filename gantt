@@ -1,0 +1,36 @@
+## Roadmap (Gantt)
+
+```mermaid
+gantt
+    title Roadmap eCommerce (Chile) - 05 Ene 2026 a 29 Mar 2026
+    dateFormat  YYYY-MM-DD
+    excludes    weekends
+
+    section Fundaciones
+    Propuesta de valor + categorías        :a1, 2026-01-05, 5d
+    Nombre + dominio + @redes             :a2, 2026-01-05, 6d
+    Identidad mínima viable               :a3, after a2, 6d
+    Formalización básica (RUT/pagos)      :a4, 2026-01-12, 16d
+
+    section Producto & Proveedores
+    SKU Shortlist v1 (20-50)              :b1, 2026-01-05, 10d
+    Pedido de muestras                    :b2, after b1, 5d
+    Evaluación + Golden Sample            :b3, after b2, 10d
+    Negociación términos + QC             :b4, after b3, 5d
+    Costeo aterrizado + pricing           :b5, after b4, 5d
+
+    section Logística & Operación
+    Elegir forwarder + estrategia         :c1, 2026-02-16, 5d
+    Docs (PO/PI/packing) + HS preliminar  :c2, after c1, 5d
+    PO final + pago inicial               :c3, 2026-03-02, 5d
+    Políticas (garantía/devolución)       :c4, 2026-02-23, 5d
+    Shipping Chile (tarifas/embalaje)     :c5, 2026-03-02, 10d
+
+    section Tienda & Contenido
+    Setup tienda + estructura             :d1, 2026-01-19, 25d
+    Fichas + fotos                        :d2, 2026-02-09, 20d
+
+    section Lanzamiento
+    Prueba end-to-end                     :e1, 2026-03-09, 5d
+    Lanzamiento soft (go-live)            :milestone, e2, 2026-03-16, 1d
+    Growth (ads + contenido)              :e3, 2026-03-16, 10d
